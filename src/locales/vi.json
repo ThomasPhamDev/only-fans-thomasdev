@@ -10,7 +10,7 @@
   },
   "home": {
     "title": "Pham Thanh Truong",
-    "subtitle": "Software Developer",
+    "subtitle": "React Developer",
     "description": "Chào mừng đến với portfolio của tôi!",
     "techStack": "Công nghệ sử dụng",
     "contactMe": "Liên hệ với tôi",
@@ -20,7 +20,7 @@
   "about": {
     "title": "Giới thiệu",
     "subtitle": "Tìm hiểu thêm!",
-    "description": "Software Developer với 3 năm kinh nghiệm trong phát triển web và mobile sử dụng React, React Native, Next.js và Laravel. Có kỹ năng xây dựng giao diện người dùng phản hồi, hiệu suất cao và kinh nghiệm tích hợp hệ thống VoIP SIP. Đam mê viết mã sạch, dễ bảo trì và liên tục cải thiện chất lượng sản phẩm.",
+    "description": "React Developer với 2 năm kinh nghiệm xây dựng ứng dụng web responsive, hiệu suất cao bằng React.js và Next.js, đồng thời có kinh nghiệm React Native, NestJS và Laravel.",
     "experience": "Kinh nghiệm",
     "years": "năm",
     "projects": "Dự án",
@@ -30,7 +30,7 @@
       "title": "Thông tin cá nhân",
       "age": "Tuổi",
       "address": "Địa chỉ",
-      "addressValue": "Đà Nẵng, Việt Nam",
+      "addressValue": "Da Nang City, Viet Nam",
       "email": "Email",
       "phone": "Điện thoại"
     },
@@ -100,7 +100,7 @@
   },
   "education": {
     "title": "Học vấn & Chứng chỉ",
-    "subtitle": "Hành trình học tập và các chứng chỉ đã đạt được",
+    "subtitle": "",
     "education": "Học vấn",
     "degree": "Kỹ sư Công nghệ Thông tin",
     "school": "Đại học Công nghệ Thông tin và Truyền Thông Việt - Hàn",

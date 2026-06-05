@@ -1,26 +1,29 @@
 @import "tailwindcss";
 
 :root {
-  /* Light theme colors */
   --background: #ffffff;
-  --foreground: #171717;
-  --primary: #3b82f6;
+  --foreground: #282728;
+  --primary: #006cac;
   --primary-foreground: #ffffff;
-  --secondary: #f1f5f9;
-  --secondary-foreground: #0f172a;
-  --muted: #f8fafc;
-  --muted-foreground: #64748b;
-  --accent: #f1f5f9;
-  --accent-foreground: #0f172a;
+  --secondary: #f7f7f7;
+  --secondary-foreground: #282728;
+  --muted: #fafafa;
+  --muted-foreground: #555154;
+  --accent: #f2f6f9;
+  --accent-foreground: #282728;
   --destructive: #ef4444;
   --destructive-foreground: #ffffff;
-  --border: #e2e8f0;
-  --input: #e2e8f0;
-  --ring: #3b82f6;
+  --border: #e6e2e4;
+  --input: #e6e2e4;
+  --ring: #006cac;
   --card: #ffffff;
-  --card-foreground: #171717;
+  --card-foreground: #282728;
   --popover: #ffffff;
-  --popover-foreground: #171717;
+  --popover-foreground: #282728;
+  --font-sans: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --default-font-family: var(--font-sans);
+  --default-mono-font-family: var(--font-mono);
 }
 
 @theme inline {
@@ -43,33 +46,30 @@
   --color-card-foreground: var(--card-foreground);
   --color-popover: var(--popover);
   --color-popover-foreground: var(--popover-foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --default-font-family: var(--font-sans);
+  --default-mono-font-family: var(--font-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    /* Dark theme colors */
-    --background: #0a0a0a;
-    --foreground: #ededed;
-    --primary: #3b82f6;
-    --primary-foreground: #ffffff;
-    --secondary: #1e293b;
-    --secondary-foreground: #f8fafc;
-    --muted: #1e293b;
-    --muted-foreground: #94a3b8;
-    --accent: #1e293b;
-    --accent-foreground: #f8fafc;
-    --destructive: #ef4444;
-    --destructive-foreground: #ffffff;
-    --border: #1e293b;
-    --input: #1e293b;
-    --ring: #3b82f6;
-    --card: #0a0a0a;
-    --card-foreground: #ededed;
-    --popover: #0a0a0a;
-    --popover-foreground: #ededed;
-  }
+html.dark {
+  --background: #111111;
+  --foreground: #f3f1f2;
+  --primary: #48b8ef;
+  --primary-foreground: #111111;
+  --secondary: #1c1c1c;
+  --secondary-foreground: #f3f1f2;
+  --muted: #171717;
+  --muted-foreground: #c7c2c5;
+  --accent: #20282d;
+  --accent-foreground: #f3f1f2;
+  --border: #303030;
+  --input: #303030;
+  --ring: #48b8ef;
+  --card: #111111;
+  --card-foreground: #f3f1f2;
+  --popover: #111111;
+  --popover-foreground: #f3f1f2;
 }
 
 * {
@@ -79,7 +79,25 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  font-family: var(--default-font-family);
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary);
+  font-family: var(--default-font-family);
+  letter-spacing: 0;
+}
+
+a,
+button {
+  font-family: var(--default-font-family);
 }
 
 /* Custom scrollbar */

@@ -2,7 +2,7 @@
 
 import { Viewer, Worker } from '@react-pdf-viewer/core';
 import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
-import { useTranslationContext } from './TranslationProvider';
+import { useTranslationContext } from '@/components/TranslationProvider';
 
 // Import styles
 import '@react-pdf-viewer/core/lib/styles/index.css';

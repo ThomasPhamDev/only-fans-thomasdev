@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thomas Pham Portfolio</title>
+    <link>https://thomasworks.netlify.app/</link>
+    <atom:link href="https://thomasworks.netlify.app/rss.xml" rel="self" type="application/rss+xml" />
+    <description>React Developer portfolio, work experience, education, and CV.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Thomas Pham Portfolio</title>
+      <link>https://thomasworks.netlify.app/</link>
+      <guid>https://thomasworks.netlify.app/</guid>
+      <description>Personal portfolio homepage for Thomas Pham.</description>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Work Experience</title>
+      <link>https://thomasworks.netlify.app/work-experience</link>
+      <guid>https://thomasworks.netlify.app/work-experience</guid>
+      <description>Work experience and project history.</description>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Education</title>
+      <link>https://thomasworks.netlify.app/education</link>
+      <guid>https://thomasworks.netlify.app/education</guid>
+      <description>Education background and university information.</description>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CV</title>
+      <link>https://thomasworks.netlify.app/cv</link>
+      <guid>https://thomasworks.netlify.app/cv</guid>
+      <description>Downloadable CV for Thomas Pham.</description>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,10 +1,8 @@
-import HomeSection from "@/components/sections/HomeSection";
 import ExperienceSection from "@/components/sections/ExperienceSection";
 
-export default function Home() {
+export default function WorkExperiencePage() {
   return (
     <div className="min-h-screen bg-background">
-      <HomeSection />
       <ExperienceSection />
     </div>
   );

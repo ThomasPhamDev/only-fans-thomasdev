@@ -1,38 +1,28 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
 import { TranslationProvider } from "@/components/TranslationProvider";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import { profile } from "@/data/portfolio";
 
 export const metadata: Metadata = {
-  title: "Pham Thanh Truong - Software Developer",
-  description: "Software Developer với 3 năm kinh nghiệm trong phát triển web và mobile sử dụng React, React Native, Next.js và Laravel.",
-  keywords: "Software Developer, React, React Native, Next.js, TypeScript, JavaScript, Web Development",
-  authors: [{ name: "Pham Thanh Truong" }],
-  creator: "Pham Thanh Truong",
+  title: `${profile.name} - ${profile.role}`,
+  description: profile.summary,
+  keywords: "React Developer, ReactJS, Next.js, TypeScript, React Native, NestJS, Laravel, AWS, Datadog",
+  authors: [{ name: profile.name }],
+  creator: profile.name,
   openGraph: {
     type: "website",
     locale: "vi_VN",
-    url: "https://thomasworks.netlify.app/",
-    title: "Pham Thanh Truong - Software Developer",
-    description: "Sofware Developer với 3 năm kinh nghiệm trong phát triển web và mobile",
-    siteName: "Pham Thanh Truong Portfolio",
+    url: profile.website,
+    title: `${profile.name} - ${profile.role}`,
+    description: profile.summary,
+    siteName: `${profile.name} Portfolio`,
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pham Thanh Truong - Software Developer",
-    description: "Software Developer với 3 năm kinh nghiệm trong phát triển web và mobile",
+    title: `${profile.name} - ${profile.role}`,
+    description: profile.summary,
   },
 };
 
@@ -42,16 +32,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="vi">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        
+    <html lang="vi" suppressHydrationWarning>
+      <body>
         <TranslationProvider>
           <Header />
-          <main className="pt-16">
-            {children}
-          </main>
+          <main>{children}</main>
           <Footer />
         </TranslationProvider>
       </body>

@@ -10,7 +10,7 @@
   },
   "home": {
     "title": "Pham Thanh Truong",
-    "subtitle": "Software Developer",
+    "subtitle": "React Developer",
     "description": "Welcome to my portfolio!",
     "techStack": "Tech Stack",
     "contactMe": "Contact Me",
@@ -20,7 +20,7 @@
   "about": {
     "title": "About Me",
     "subtitle": "Learn more about my development journey and passion in technology",
-    "description": "Software Developer with 3 years of experience in web and mobile development using React, React Native, Next.js and Laravel. Skilled in building responsive, high-performance user interfaces and experienced in VoIP SIP system integration. Passionate about writing clean, maintainable code and continuously improving product quality.",
+    "description": "React Developer with 2 years of experience building responsive and high-performance web applications. Proficient in React.js and Next.js, with additional experience in React Native and backend development using NestJS and Laravel.",
     "experience": "Experience",
     "years": "years",
     "projects": "Projects",
@@ -30,7 +30,7 @@
       "title": "Personal Info",
       "age": "Age",
       "address": "Address",
-      "addressValue": "Da Nang, Vietnam",
+      "addressValue": "Da Nang City, Viet Nam",
       "email": "Email",
       "phone": "Phone"
     },
@@ -100,7 +100,7 @@
   },
   "education": {
     "title": "Education & Certifications",
-    "subtitle": "Learning journey and achieved certifications",
+    "subtitle": "",
     "education": "Education",
     "degree": "Bachelor of Information Technology",
     "school": "Vietnam - Korea University of Information and Communication Technology",
